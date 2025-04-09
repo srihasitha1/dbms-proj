@@ -1,0 +1,56 @@
+.navbar-brand i {
+    font-size: 1.5rem;
+}
+
+.recipe-card {
+    transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.difficulty-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+}
+
+.difficulty-easy {
+    background-color: #DEF7EC;
+    color: #03543F;
+}
+
+.difficulty-medium {
+    background-color: #FEF3C7;
+    color: #92400E;
+}
+
+.difficulty-hard {
+    background-color: #FEE2E2;
+    color: #991B1B;
+}
+
+.rating-stars {
+    color: #FCD34D;
+}
+
+.rating-stars.empty {
+    color: #E5E7EB;
+}
+
+/* Loading spinner */
+.spinner {
+    width: 3rem;
+    height: 3rem;
+    border: 0.25rem solid #FCD34D;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
